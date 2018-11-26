@@ -1,0 +1,20 @@
+/* When you create btn styles, first define colors in _variables.css and than ssave _btn styles */
+
+.btn {
+    background-color: $mainBlue;
+    color:#fff;
+    padding: 20px 10px;
+    text-decoration: none;
+    padding: .75rem 1.2rem;
+    display: inline-block;
+
+    &--orange {
+        background-color: $mainOrange;
+    }
+
+    &--large {
+        font-size: 1.25rem;
+        padding: 1.1rem 1.9rem;
+    }
+}
+
